@@ -1,0 +1,363 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display:block;
+    background-image: url(naujas.jpg)
+}
+
+body, html {
+    height: 100%;
+}
+
+
+ 
+/* 
+-----------------------------------------------------------------------------*/
+* { 
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+}
+
+
+
+
+h2 {
+    font-size: 20px;
+}
+
+.smallersize {
+    font-size: 16px;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+header,
+main,
+footer {
+    padding: 0%;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+    height: auto;
+    background-color: white;
+}
+
+
+
+header {
+  text-align: center;
+  overflow: hidden;
+  padding-top: 60px;
+}
+header {
+  line-height: 1.5;
+}
+header .logo {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 30%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+header .logo:hover {
+  transform: scale(2) rotate(360deg);
+}
+.tag {
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+
+} 
+
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+main {
+    background-color: azure;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
+
+.clearfix {
+    overflow: auto; 
+}
+
+
+
+/* 
+-----------------------------------------------------------------------------*/
+.card1 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align:center;
+  background-image: url("48.jpg");
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+
+}
+.card1:hover {
+  border-color: #ff99ff;
+}
+.card-title1 {
+text-align: center;
+    color: azure;
+}
+.text{
+    color: whitesmoke;
+    margin: 30px;
+  padding: 20px;
+  max-width: 500px;
+    text-align: center;
+}
+
+
+ul.read {
+  padding: 0;
+  text-align: center;
+}
+
+.read li {
+  border-radius: 6px;
+  display: inline-block;
+  background-color: azure;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+
+
+/* 
+-----------------------------------------------------------------------------*/
+.card2 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background-image: url("15min.jpg");
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+.card2:hover {
+  border-color: brown;    
+}
+
+.card-title2 {
+text-align: center;
+  color: azure;
+}
+
+/* 
+-----------------------------------------------------------------------------*/
+.card3 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background-image: url("out.jpg");
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+.card3:hover {
+  border-color: gold;
+}
+.card-title3 {
+text-align: center;
+  color: azure;
+}
+/* 
+-----------------------------------------------------------------------------*/
+.card4 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background-image: url("for1.jpg");
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+.card4:hover {
+  border-color:royalblue;
+}
+.card-title4 {
+text-align: center;
+  color: azure;
+}
+/* 
+-----------------------------------------------------------------------------*/
+.card5 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background-image: url("for2.jpg");
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+.card5:hover {
+  border-color: rebeccapurple;
+}
+.card-title5 {
+text-align: center;
+  color: azure;
+}
+/* 
+-----------------------------------------------------------------------------*/
+.card6 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align:center;
+  background-image: url("mealfor3.jpg");
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+.card6:hover {
+  border-color: gray;
+}
+.card-title6 {
+text-align: center;
+  color: azure;
+}
+/* 
+-----------------------------------------------------------------------------*/
+.card7 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background-image: url("motw.jpg");
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+.card7:hover {
+  border-color: gray;
+}
+.card-title7 {
+text-align: center;
+  color: azure;
+}
+/* 
+-----------------------------------------------------------------------------*/
+.card8 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background-image: url("supermarkets.jpg");
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+.card8:hover {
+  border-color: gray;
+}
+.card-title8 {
+text-align: center;
+  color: azure;
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+    height: auto;
+    background-color: white;
+    padding: 2%;
+
+    }
+/* Styles for larger screens */
+@media screen and (min-width: 1024px) {
+  
+  .flex {
+      display: flex;
+      max-width: 4000px;
+      justify-content: space-between;
+      margin: 0 auto;
+  }
+
+  header {
+    min-height: 450px;
+  }
+
+
+  main {
+    padding-top: 50px;
+  }
+
+  main p {
+    line-height: 1.6em;
+  }
+
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+    .first{
+        display: flex;
+    height: 75%;
+    width: 75%;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+
+}
